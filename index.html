@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>leon | template one</title>
+    <!-- css link folder -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Work+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header pos-rel">
+    <div class="container flex-between">
+        <div class="logo">
+            <a href="file:///E:/%D8%A8%D8%B1%D9%85%D8%AC%D9%87/template%20one/index.html">
+                <span>i</span>
+                <span>o</span>
+            </a>
+        </div>
+        <div class="toggle-menue pos-rel">
+            <div class="menue pos-rel">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span class="arrow"></span>
+            <ul>
+                <li><a href="#service" class="pos-rel">services</a></li>
+                <li><a href="#portfolio" class="pos-rel">portfolio</a></li>
+                <li><a href="#about" class="pos-rel">about</a></li>
+                <li><a href="#contact" class="pos-rel">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <section class="main-page">
+        <div class="landing pos-rel">
+            <div class="container">
+                <div class="text">
+                    <h1>hello there</h1>
+                    <span>
+                        <h4>We are Leon - Super Creative &</h4>
+                        <h4>Minimal Agency Web Template</h4>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-m1">
+            <div class="container">
+                <div class="col-m11">
+                <div class="box">
+                    <i class='bx bxs-magic-wand'></i>
+                    <h3>Tell Us Your Idea</h3>
+                    <h4 class="line"></h4>
+                </div>
+                <div class="box">
+                    <i class='bx bx-diamond'></i>
+                    <h3>We Will Do All The Work</h3>
+                    <h4 class="line"></h4>
+                </div>
+                <div class="box">
+                    <i class='bx bx-globe'></i>
+                    <h3>Your Product is Worldwide</h3>
+                    <h4 class="line"></h4>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="service" id="service" style="background-color: var(--white-color);">
+            <div class="container">
+                <div class="col-m2 pos-rel flex-center">
+                    <p>services</p>
+                    <span>Don't be busy, be productive</span>
+                </div>
+                <div class="col-m3 flex-between">
+                    <div class="col-m3-1">
+                        <div class="box">
+                            <i class='bx bxs-palette'></i>
+                            <div class="col-m3-1-2">
+                                <h3>Graphic Design</h3>
+                                <p>Graphic design is the process of visual communication and problem-solving 
+                                using one or more of typography, photography and illustration.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-grid-alt'></i>
+                            <div class="col-m3-1-2">
+                                <h3>Web Design</h3>
+                                <p>Web design encompasses many different skills
+                                and disciplines in the production and maintenance of websites.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <i class="bx bx-diamond"></i>
+                            <div class="col-m3-1-2">
+                                <h3>UI & UX</h3>
+                                <p>Process of enhancing user satisfaction with a product by 
+                                improving the usability, accessibility, and pleasure provided in the interaction.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <i class='bx bxs-pencil'></i>
+                            <div class="col-m3-1-2">
+                                <h3>Web Development</h3>
+                                <p>Web development is a broad term for the work involved 
+                                in developing a web site for the Internet or an intranet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-m3-2">
+                        <img src="images/services.jpg" alt="">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="col-m2 pos-rel flex-center">
+                    <p>portfolio</p>
+                    <span>If you do it right, it will last forever.</span>
+                </div>
+                <div class="col-m4">
+                    <div class="box">
+                        <img src="images/portfolio-1.jpg" alt="">
+                        <div class="col-m4-1">
+                            <h3>Project Here</h3>
+                            <p class="tex"></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/portfolio-2.jpg" alt="">
+                        <div class="col-m4-1">
+                            <h3>Project Here</h3>
+                            <p class="tex"></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/portfolio-3.jpg" alt="">
+                        <div class="col-m4-1">
+                            <h3>Project Here</h3>
+                            <p class="tex"></p>
+                        </div>
+                    </div>
+                    <script>
+                        let mes = "My creative ability is very difficult to measure because it can manifest in so many surprising and.";
+                        let texts = document.querySelectorAll(".tex")
+                        for(let k =0; k<texts.length; k++){
+                            texts[k].innerHTML = mes
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about" style="background-color: var(--white-color);">
+            <div class="container">
+                <div class="col-m2 pos-rel flex-center">
+                    <p>about</p>
+                    <span>Less is more work.</span>
+                </div>
+                <div class="col-m5 flex-between">
+                    <div class="images">
+                        <span></span>
+                        <img src="images/about.jpg" alt="">
+                        <span></span>
+                    </div>
+                    <div class="col-m51">
+                        <h3 class="line"></h3>
+                        <p class="line"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="col-m2 pos-rel flex-center">
+                    <p>contact</p>
+                    <span>We are born to create.</span>
+                </div>
+                <div class="col-m6 flex-center">
+                    <h1>Feel free to drop us a line at:</h1>
+                    <a href="" class="link">leonagency@mail.com</a>
+                    <span class="connect flex-center">Find Us On Social Networks
+                        <span class="social"><a href=""><i class='bx bxl-youtube'></i></a></span>
+                        <span class="social"><a href=""><i class='bx bxl-facebook-circle'></i></a></span>
+                        <span class="social"><a href=""><i class='bx bxl-twitter'></i></a></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container flex-center">
+            <span>© 2021 <p>Leon</p> All Right Reserved</span>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
